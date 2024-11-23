@@ -10,8 +10,13 @@ const Navbar = () => {
             <img className='h-40' src={logo} alt='logo'></img>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedin />
-            <FaGithub />
+            <a href='https://www.linkedin.com/in/arka-saha-9007961b4/' target='_blank'>
+               <FaLinkedin />
+            </a>
+            <a href='https://github.com/Arka-saha10' target='_blank'>
+               <FaGithub />
+            </a>
+            
         </div>
     </nav>
   )
